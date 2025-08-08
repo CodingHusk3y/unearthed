@@ -24,10 +24,40 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-left img {
+  height: 40px;
+}
+
+.header-title {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
 }
 
 h1 {
