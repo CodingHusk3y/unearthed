@@ -1,4 +1,3 @@
-
 const renderGift = async () => {
 	const requestedID = parseInt(window.location.href.split('/').pop());
 	const response = await fetch('/gifts');
